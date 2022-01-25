@@ -18,8 +18,8 @@ function getvoi(city) {
 exports.main = async (event, context) => {
 	let datas = await getvoi("义乌")
 	var message = {
-		from: "58317503@qq.com",
-		to: "1465428543@qq.com",
+		from: "5831@qq.com",  // 发送方
+		to: "146543@qq.com",  // 接收方
 		subject: "哈喽",
 		// text: "你是猪"
 		html: `<html>
